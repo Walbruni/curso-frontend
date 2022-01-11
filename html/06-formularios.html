@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário Fale Conosco</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="../html/styles/style-2.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<div><h2>EBAC</h2></div>
+			<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Menu</h3>
+				<ul class="navegacao">
+					<li><a href="./08-exercicio.html">Home</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="07-lucas-exercicio.html">Finanças e Vendas</a></li>
+					<li><a href="09-web-layout.html">Web Layout</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+				
+				<form method="post">
+					
+					<div>
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+						<label>Qual linguagem você prefere?</label>
+						<input type="radio" name="linguagem" value="html">HTML
+						<input type="radio" name="linguagem" value="css">CSS
+						<input type="radio" name="linguagem" value="javascript">JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+						<label>Quais linguagens você sabe?</label>
+						<input type="checkbox" name="linguagens" value="html">HTML
+						<input type="checkbox" name="linguagens" value="css">CSS
+						<input type="checkbox" name="linguagens" value="javascript">JavaScript
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelho" selected>Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit">
+					</div>
+
+				</form>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p><strong>Desenvolvido por Lucas</strong></p>
+		</footer>
+
+	</body>
+
+</html>

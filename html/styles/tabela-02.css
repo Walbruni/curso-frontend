@@ -1,0 +1,99 @@
+table {
+
+	border: 2px solid;
+	background: #ffffff;
+	width: 80%;
+	border-collapse: collapse;
+
+}
+
+table tr {
+	border: 1px solid #575757;
+}
+
+table tbody tr:hover {
+	background-color: #D6D2B6
+}
+
+table th,
+table td {
+	padding: 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+	border: 2px solid #575757;
+}
+
+table tr td:first-child {
+	text-align: left;
+	font-weight: bold;
+}
+
+table th {
+	background-color: #B0AC96;
+	color: white;
+	font-weight: bold;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+.table-container {
+	padding: 2rem 1rem;
+}
+
+.table-container h3 {
+	font-size: 1.8rem;
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.table-container tfoot {
+	background: #DCDCDE;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+}
+
+@media (min-width: 769px) {
+
+	body {
+	  background-color: rgb(228, 166, 122);
+	  color: firebrick;
+	}
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+	nav {
+	  width: 30vw;
+	}
+  
+	article {
+	  width: 70vw; 
+	}
+	
+  }
+  
+@media (max-width: 425px) {
+	table,
+	table tr,
+	table tbody tr,
+	table th,
+	table td,
+	.table-container,
+	.table-container tfoot,
+	.table-container tfoot td,
+	th,
+	tr,
+	tbody {
+		width: 70%;
+		padding: 0.1em
+	}
+
+	p, h3, li, a {
+		color: green;
+	  }
+}
+

@@ -1,0 +1,204 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+	color: #333;
+	font-size: 62.5%; 
+}
+
+body {
+	background-color: #E0E4FF;
+}
+
+header {
+	border: outset;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+	color: white;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Limelight', cursive;
+}
+
+header p {
+    color:  #fff;
+	font-size: 1.5rem;
+}
+
+header h2 {
+	font-weight: 100;
+}
+
+h1 {
+	font-size: 2rem;
+	padding-bottom: 20px;
+}
+
+h5 {
+	font-size: 1.9rem;
+}
+
+h3 {
+	font: normal bold 1.8rem/2 sans-serif;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#primeiro-link a {
+	color: #933;
+}
+
+ul {
+	margin-left: .5rem;
+}
+
+p {
+	font-size: 1.6rem; 
+	padding-bottom: 10px;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+.navegacao li a:hover {
+	color: #b0ac96;
+}
+
+.navegacao li a {
+	border-bottom: 1px solid #000;
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+.navegacao {
+	padding: 0.5rem;
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+form {
+	background-color: #b0ac96;
+	padding: 10px;
+	border: inset;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid #706E5F;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: cursive;
+	font-weight: bold;
+	color: #000000;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+	
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;		
+	background-color: antiquewhite;	
+}
+			
+section::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+section {
+	background-color: white;
+}
+
+footer {
+	background: url(../images/mart.png);
+	background-color: #706E5F;
+	border: outset;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+    font-weight: normal;
+	font-size: 2.2rem;
+	font-family: cursive;
+}
+
+a:hover {
+	background: #eee;
+}
+
+/* Mobile First */
+
+/* Tablet */
+@media (min-width: 769px) {
+				
+	body {
+  		background-color: rgb(228, 166, 122);
+  		color: firebrick;
+	}
+
+}
+
+@media (max-width: 768px) {
+
+	nav {
+  		width: 30vw;
+	}
+
+	article {
+  		width: 70vw;
+	}
+}
+
+/* Smartphone */
+@media (max-width: 425px) {
+	nav,
+	article,
+	form,
+	#checkbox {
+  		width: 100%;
+  		min-width: 320px
+	}
+
+	p, h3, li, a {
+  		color: green;
+	}
+
+}

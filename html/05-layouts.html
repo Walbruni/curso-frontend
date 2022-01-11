@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			html {
+				font-family: Arial, Helvetica, sans-serif;
+    			color: #333;
+				
+			}
+
+			body {
+				
+			}
+
+			/* Style the header */
+			header {
+				border: outset;
+				background-color: #333;
+				padding: 10px;
+				text-align: center;
+				font-size: 30px;
+				color: white;
+				font-weight: 400;
+				font-family: 'Limelight', cursive;
+			}
+
+			header h2 {
+				font-weight: 100;
+			}
+
+			header p {
+    			color:  #fff;
+				font-size: 10px;
+			}
+
+
+			h1 {
+			font-size: 2rem;
+			margin-bottom: 10px;
+			}
+
+			h2 ~ h5 {
+			font-size: 1.2rem;
+			}
+
+			h3 {
+				font: normal bold 1.2rem sans-serif;
+				
+			}
+ 			
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+				float: left;
+				width: 30%;
+				padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+				list-style-type: none;
+				padding: 0;
+			}
+
+			.navegacao {
+				padding: 0.5rem;
+			}
+
+			.navegacao li a:hover {
+				color: #b0ac96;
+			}
+
+			.navegacao li a {
+				border-bottom: 1px solid #000;
+				padding: 0.5rem;
+			}
+
+			a:hover {
+				background: #eee;
+			}
+
+			a {
+				text-decoration: none;
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+
+			li {
+				letter-spacing: 0.01rem;
+				font-family: sans-serif;
+				line-height: 1.5;
+			}
+
+			article {
+				float: left;
+				padding: 20px;
+				width: 70%;
+				background-color: antiquewhite;
+				height: 400px; /* only for demonstration, should be removed */
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			background: url(../Lucas-exercicio-09/images/mart.png);
+			background-color: #706E5F;
+			border: outset;
+    		Padding: 10px;
+    		text-align: center;
+			}
+
+			footer p {
+			color: rgb(255, 255, 255);
+    		font-weight: normal;
+			font-size: 1.4rem;
+			font-family: cursive;
+			}
+			
+			/* Mobile First */
+
+			/* Tablet */
+			@media (min-width: 769px) {
+				
+				body {
+  					background-color: rgb(228, 166, 122);
+  					color: firebrick;
+				}
+
+			}
+
+			@media (max-width: 768px) {
+
+				nav {
+  					width: 30vw;
+				}
+
+				article {
+  					width: 70vw;
+				}
+
+			}
+
+			/* Smartphone */
+			@media (max-width: 425px) {
+				nav,
+				article,
+				.colune {
+  					width: 100%;
+  					min-width: 320px
+				}
+
+				p, h3, li, a {
+  					color: green;
+				}
+				body {
+    				background-color: #009;
+  				}
+
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<div><h2>EBAC</h2></div>
+        	<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Menu</h3>
+			
+				<ul class="navegacao">
+					<li><a href="08-exercicio.html">Home</a></li>
+					<li><a href="06-formularios.html">Formulários</a></li>
+					<li><a href="07-lucas-exercicio.html">Finanças e Vendas</a></li>
+					<li><a href="09-web-layout.html">Web Layout</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				
+				<h1>Título Artigo</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id purus vel massa vehicula ornare. In justo sem, molestie nec lacinia ornare, malesuada sit amet turpis. Morbi at placerat nulla, non varius quam. Phasellus egestas libero eget mollis viverra. Praesent urna elit, tincidunt at euismod id, molestie vitae libero. Donec ut dictum leo. Donec rhoncus ex ipsum, ac faucibus velit fermentum sed. In hac habitasse platea dictumst. Suspendisse semper neque at ornare pellentesque.</p>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p><strong>Desenvolvido por Lucas</strong></p>
+		</footer>
+
+	</body>
+</html>

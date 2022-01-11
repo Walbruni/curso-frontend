@@ -1,0 +1,217 @@
+/* Importando CSS de Tabelas */
+@import url('tabela-02.css');
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+header {
+	border: outset;
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	font-weight: 400;
+	font-family: 'Limelight', cursive;
+	
+}
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+h2 + p {
+
+}
+
+div ~ p {
+	text-transform: uppercase;
+}
+
+h2 ~ h5 {
+	
+
+}
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+a:visited {
+	color: #f00;
+}
+
+a:active {
+	color: #096;
+}
+
+a:hover {
+	color: #009;
+	background: #eee;
+}
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+h1, h3 {
+	font-weight: 400;
+	font-family: 'Limelight', cursive;
+}
+
+p {
+	
+}
+
+
+ul {
+	padding-left: .5rem;
+	margin-left: .5rem;	
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: normal bold 1.8rem/2 sans-serif;
+}
+
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	width: 100%;
+	
+}
+
+section {
+	width: 100%;
+}
+
+p {
+	color: blue;
+	color: #034589;
+}
+
+footer {
+	background: url(../images/mart.png);
+	background-color: #706E5F;
+	border: outset;
+	Padding: 10px;
+	text-align: center;
+	
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	font-size: 2.2rem;
+	font-family: cursive;
+}
+
+.navegacao {
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	border-bottom: 1px solid #000;
+	font-size: 1.4rem;
+	padding: 0.5rem;
+}
+
+.navegacao li a:hover {
+	color: #B0AC96;
+}
+
+/* Mobile First */
+
+/* Tablet */
+@media (min-width: 769px) {
+
+	body {
+	  background-color: rgb(228, 166, 122);
+	  color: firebrick;
+	}
+  
+  }
+  
+  @media (max-width: 768px) {
+  
+	nav {
+	  width: 30vw;
+	}
+  
+	article {
+	  /* width: 70vw; */
+	}
+	
+  }
+  
+  /* Smartphone */
+  @media (max-width: 425px) {
+	nav,
+	article, 
+	section,
+	header,
+	footer,
+	body {
+	  width: 104%;
+	  min-width: 320px
+	}
+  
+	p, h3, li, a {
+	  color: green;
+	}
+  
+  }
