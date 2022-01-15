@@ -29,6 +29,7 @@ p {
 }
 
 header {
+	width: 100%;
 	border: outset;
 	background-color: #333;
 	padding: 10px;
@@ -193,7 +194,7 @@ footer p {
 	}
   
 	article {
-	  /* width: 70vw; */
+	width: 70vw;
 	}
 	
   }
@@ -201,17 +202,32 @@ footer p {
   /* Smartphone */
   @media (max-width: 425px) {
 	nav,
-	article, 
-	section,
-	header,
-	footer,
-	body {
-	  width: 104%;
-	  min-width: 320px
+	body,
+	section {	
+	  width: 100%;
+	}
+
+	article {
+		width: 141%;
 	}
   
 	p, h3, li, a {
-	  color: green;
+		color: green;
 	}
-  
+
+	header h2,
+	h5,
+	footer p {
+		text-align: center;
+	}
+
+	header,
+	footer {
+		width: 142%;
+	}
+
+	.navegacao li a {
+		font-size: 2rem;
+	}
+
   }
