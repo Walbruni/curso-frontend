@@ -64,6 +64,13 @@ p {
     color: #333;
 }
 
+
+
+#tenho-interesse {
+    background-color: #fbfcfd;
+    width: 100%;
+}
+
 ol {
     margin-left: 30px;
 }
@@ -132,6 +139,7 @@ footer small {
     display: block;
 }
 
-.MplDOABlrUGAyIVx5DgKaQ {
-    visibility: hidden !important;
+.cognito {
+    height: 380px !important;
+    overflow: hidden;
 }
