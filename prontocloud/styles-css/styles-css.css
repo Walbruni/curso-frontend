@@ -59,6 +59,7 @@ h4 {
 }
 
 p {
+    width: 100%;
     margin-bottom: 10px;
     line-height: 1.4;
     color: #333;
@@ -117,7 +118,7 @@ nav a:hover {
 section article {
     display: block;
     float: left;
-    width: 70%;
+    width: 60%;
 }
 
 footer {
@@ -148,7 +149,10 @@ footer small {
     section img {
         width: 80%;
     }
-    
+
+    p, li {
+        width: 70%;
+    }
 }
 
 @media (max-width: 425px) {
@@ -172,7 +176,12 @@ footer small {
         font-size: 2rem;
     }
 
+    h4 {
+        width: 75%;
+        line-height: 25px;
+    }
+
     p, li {
-        width: 90%;
+        width: 80%;
     }
 }
