@@ -167,7 +167,7 @@ footer small {
     }
 
     section img {
-        width: 100%;
+        width: 100% !important;
     }
 
     h1 {
@@ -182,7 +182,7 @@ footer small {
     }
 
     p, li {
-        width: 80%;
+        width: 80% !important;
     }
 
     .cognito {
@@ -191,6 +191,15 @@ footer small {
 
     html {
         overflow-x: hidden;
+    }
+
+    .legenda-container,
+    .legenda {
+        width: 100%;
+        padding: 0 !important;
+        font-size: 1.5rem;
+    
+    
     }
 }
 
