@@ -44,7 +44,6 @@ h2 {
     font-size: 2rem;
     color: #254159;
     margin-bottom: 20px;
-    padding-top: 20px;
 }
 
 h3 {
@@ -81,11 +80,10 @@ ol {
 ol li {
     font-size: 1.4rem;
     color: #454545;
-    line-height: 2.5rem;
-    padding-bottom: 2rem;
 }
 
 section {
+    background-color: #aec5d8;
     display: block;
     float: left;
     font-size: 1.5rem;
@@ -144,8 +142,95 @@ footer small {
 }
 
 .cognito {
-    height: 380px;
+    height: 380px !important;
     overflow: hidden;
+}
+
+#banner {
+    background-image: url(../images/PC.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 100vw;
+    height: 70vh;
+}
+
+.legenda-container {
+    width: 30vw;
+    float: right;
+    margin: 10vh 10vh 0 0;
+}
+
+.legenda {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 30px;
+    border-radius: 5px; 
+    margin-bottom: 5rem;
+}
+
+.legenda h5,
+.legenda h4 {
+    color: #254159;
+    line-height: 1.5;
+    font-size: 1.7rem;
+}
+
+.button-cta {
+    border-radius: 25px;
+    display: inline;
+    background-color: orangered;
+    color: #fff;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 4px #454545;
+    padding: 10px 15px;
+    width: auto;
+    text-decoration: none;
+    font-weight: 300;
+    float: right;
+}
+
+#saiba-mais {
+    background-color: #eaeff3;
+    padding: 40px 0;
+}
+
+#saiba-mais p,
+#saiba-mais img {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+#perguntas-frequentes {
+    background-color: #b8c8d6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    color: #254159;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+}
+
+dd {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1440px) {
+    #saiba-mais {
+        padding: 20px
+    }
 }
 
 @media (max-width: 768px) {
@@ -153,13 +238,33 @@ footer small {
         width: 80%;
     }
 
+    #saiba-mais {
+        padding: 20px;
+    }
+
     p, li {
         width: 70%;
-        text-align: justify;
+    }
+    
+    .legenda h4,
+    .legenda h5 {
+        font-size: 1.6rem;
+    }
+
+    dt {
+        padding-bottom: 10px;
+    }
+
+    dd {
+        line-height: 1.6;
     }
 }
 
 @media (max-width: 425px) {
+    #banner {
+        background-size: cover;
+    }
+
     section nav,
     section article {
         width: 100%;
@@ -170,8 +275,8 @@ footer small {
         padding-right: 1%;
     }
 
-    section img {
-        height: 300px;
+    #saiba-mais img {
+        width: 80%;
     }
 
     h1 {
@@ -187,7 +292,6 @@ footer small {
 
     p, li {
         width: 80% !important;
-        text-align: justify;
     }
 
     .cognito {
@@ -200,11 +304,20 @@ footer small {
 
     .legenda-container,
     .legenda {
-        width: 100%;
-        padding: 0 !important;
+        width: 85%;
         font-size: 1.5rem;
-    
-    
+    }
+
+    .legenda h4,
+    .legenda h5 {
+        font-size: 1.6rem;
+    }
+
+    dt {
+        padding-bottom: 10px;
+    }
+
+    dd {
+        line-height: 1.6;
     }
 }
-
