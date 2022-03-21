@@ -270,6 +270,55 @@ console.log( aprovacao([9, 6]) );
 
 
 
+### DOM
+
+Seleciona o objeto e disponibiliza (métodos / funções).callback
+
+- document.getElementById(id)
+
+- document.getElementByTagName('div')
+
+- document.createElement('div') 
+
+- parentNode.appendChild(node) 
+
+- element.innerHTML
+
+- element.style
+
+- element.setAttribute('name')
+
+- element.getAttribute('name')
+
+- element.addEventListener()
+
+- window.location
+
+- window.onload 
+
+- console.log()
+
+- window.scrollTo(x,y)
+
+
+### SELETORES
+
+Tipos de seletores: Tag, ID, Class, Name e Query
+
+- Callback
+
+- getElementById()
+
+- getElementsByTagName()
+
+- getElementsByName()
+
+- getElementsByClassName()
+
+- querySelectorAll()  // #id | .class
+
+
+
 
 
 
