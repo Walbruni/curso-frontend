@@ -1,210 +1,210 @@
-
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #f5f5f5;
-    font-family: 'Open Sans', sans-serif;
-    overflow-x: hidden;
-    
+  background-color: #f5f5f5;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 .main-container {
-    display: block;
-    width: 100vw;
-    margin: 0 auto;
-    
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 .container {
-    display: block;
-    float: left;
-    padding: 0;
-    margin-left: 20px;
-    width: 85%;
+  display: block;
+  float: left;
+  padding: 0;
+  margin-left: 20px;
+  width: 85%;
 }
 
 header {
-    background:#e0e6eb;
-    display: block;
-    float: left;
-    padding: 20px;
-    width: 100%;
-    border-bottom: 1px solid #254159;
+  background: #e0e6eb;
+  display: block;
+  float: left;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #254159;
 }
 
 h1 {
-    font-size: 2.4rem;
-    color: #254159;
-    margin-bottom: 20px;
+  font-size: 2.4rem;
+  color: #254159;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 2rem;
-    color: #254159;
-    margin-bottom: 20px;
-    padding-top: 20px;
+  font-size: 2rem;
+  color: #254159;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 h3 {
-    font-size: 1.8rem;
-    color: #254159;
-    margin-bottom: 20px;
-    padding-top: 10px;
+  font-size: 1.8rem;
+  color: #254159;
+  margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 h4 {
-    font-size: 1.6rem;
-    color: #385874;
-    margin-bottom: 10px;
-    padding-top: 10px;
+  font-size: 1.6rem;
+  color: #385874;
+  margin-bottom: 10px;
+  padding-top: 10px;
 }
 
 p {
-    width: 100%;
-    margin-bottom: 10px;
-    line-height: 1.6;
-    color: #333;
-    text-align: justify;
+  width: 100%;
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
 }
 
 #tenho-interesse {
-    background-color: #fbfcfd;
-    width: 100%;
+  background-color: #fbfcfd;
+  width: 100%;
 }
 
 ol {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 ol li {
-    font-size: 1.4rem;
-    color: #454545;
-    line-height: 2.5rem;
-    padding-bottom: 2rem;
+  font-size: 1.4rem;
+  color: #454545;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
 }
 
 section {
-    display: block;
-    float: left;
-    font-size: 1.5rem;
-    width: 100%;
-    padding: 20px;
+  display: block;
+  float: left;
+  font-size: 1.5rem;
+  width: 100%;
+  padding: 20px;
 }
 
 section nav {
-    display: block;
-    float: left;
-    width: 30%;
+  display: block;
+  float: left;
+  width: 30%;
 }
 
 nav li {
-    background-color: #efefef;
-    margin: 1px 20px 1px 0;
-    padding: 10px;
+  background-color: #efefef;
+  margin: 1px 20px 1px 0;
+  padding: 10px;
 }
 
 nav li:hover {
-    background-color: #dfdfdf;
+  background-color: #dfdfdf;
 }
 
 nav a {
-    text-decoration: none;
-    color: #254159;
+  text-decoration: none;
+  color: #254159;
 }
 
 nav a:hover {
-    color: #385874;
+  color: #385874;
 }
 
 section article {
-    display: block;
-    float: left;
-    width: 60%;
+  display: block;
+  float: left;
+  width: 60%;
 }
 
 footer {
-    background-color: #254159;
-    color: #fff;
-    display: block;
-    float: left;
-    width: 100%;
-    padding: 20px;
+  background-color: #254159;
+  color: #fff;
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 20px;
 }
 
 footer p {
-    color: #fff;
-    font-size: 1.4rem;
+  color: #fff;
+  font-size: 1.4rem;
 }
 
 footer small {
-    font-size: 80%;
-    display: block;
+  font-size: 80%;
+  display: block;
 }
 
 .cognito {
-    height: 380px;
-    overflow: hidden;
+  height: 380px;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
-    section img {
-        width: 80%;
-    }
+  section img {
+    width: 80%;
+  }
 
-    p, li {
-        width: 70%;
-        text-align: justify;
-    }
+  p,
+  li {
+    width: 70%;
+    text-align: justify;
+  }
+
+  article {
+    width: auto;
+  }
 }
 
 @media (max-width: 425px) {
-    section nav,
-    section article {
-        width: 100%;
-    }
+  section nav,
+  section article {
+    width: 100%;
+  }
 
-    .container {
-        padding-left: 1%;
-        padding-right: 1%;
-    }
+  .container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
 
-    section img {
-        height: 300px;
-    }
+  section img {
+    height: 300px;
+  }
 
-    h1 {
-        width: 70%;
-        padding-top: 20px;
-        font-size: 2rem;
-    }
+  h1 {
+    width: 70%;
+    padding-top: 20px;
+    font-size: 2rem;
+  }
 
-    h4 {
-        width: 75%;
-        line-height: 25px;
-    }
+  h4 {
+    width: 75%;
+    line-height: 25px;
+  }
 
-    p, li {
-        width: 80% !important;
-        text-align: justify;
-    }
+  p,
+  li {
+    width: 80% !important;
+    text-align: justify;
+  }
 
-    .cognito {
-        width: 70%;
-    }
+  .cognito {
+    width: 70%;
+  }
 
-    html {
-        overflow-x: hidden;
-    }
+  html {
+    overflow-x: hidden;
+  }
 
-    .legenda-container,
-    .legenda {
-        width: 100%;
-        padding: 0 !important;
-        font-size: 1.5rem;
-    
-    
-    }
+  .legenda-container,
+  .legenda {
+    width: 100%;
+    padding: 0 !important;
+    font-size: 1.5rem;
+  }
 }
-
