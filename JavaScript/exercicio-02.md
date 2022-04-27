@@ -1,35 +1,35 @@
 ### Resolva as operações:
 
-10 + 15 = 25
-"10" + 2 = "102"
-"10" _ 2 = 20
-"10" / 3 = 3.3
-"10" % 3 = 1
-10 + true = 11
-10 == "10" = true
-10 === "10" = false
-10 < 11 = true
-10 > 12 = false
-10 <= 10.1 = true
-10 > 9.99 = true
-10 != "dez" = true
-10 + true = 11
-"dez" + true = deztrue
-10 + false = 10
-10 _ false = 0
-true + true = 2
-10++ =
-10-- =
-1 & 1 = 1
-1 & 0 = 0
-0 & 0 = 0
-1 & 0 = 0
-0 / 1 = 0
-5 + 5 == 10 = true
-"5" + "5" == 10 = false
-"5" _ 2 > 9 = true
-(10 + 10) _ 2 = 40
-10 + 10 \* 2 = 30
+10 + 15 = 25 (number)
+"10" + 2 = "102" (string)
+"10" _ 2 = 20 (number)
+"10" / 3 = 3.3 (float)
+"10" % 3 = 1 (number)
+10 + true = 11 (number)
+10 == "10" = true (boolean)
+10 === "10" = false (boolean)
+10 < 11 = true (boolean)
+10 > 12 = false (boolean)
+10 <= 10.1 = true (boolean)
+10 > 9.99 = true (boolean)
+10 != "dez" = true (boolean)
+10 + true = 11 (number)
+"dez" + true = "deztrue" (string)
+10 + false = 10 (number)
+10 _ false = 0 (number)
+true + true = 2 (number)
+10++ = 11 (number)
+10-- = 9 (number)
+1 & 1 = 1 (number)
+1 & 0 = 0 (number)
+0 & 0 = 0 (number)
+1 & 0 = 0 (number)
+0 / 1 = 0 (number)
+5 + 5 == 10 = true (boolean)
+"5" + "5" == 10 = false (boolean)
+"5" _ 2 > 9 = true (boolean)
+(10 + 10) _ 2 = 40 (number)
+10 + 10 \* 2 = 30 (number)
 
 ### Responda as perguntas de acordo com as variaveis:
 
