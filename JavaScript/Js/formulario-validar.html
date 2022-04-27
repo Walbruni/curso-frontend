@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-form.css" />
+    <title>Formulário de Validação</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Preencha o formulário</h2>
+      </div>
+
+      <form class="form" id="form">
+        <div class="form-control">
+          <label for="username">Nome</label>
+          <input type="text" placeholder="digite seu nome" id="username" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="email" placeholder="digite seu email" id="email" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="telefone">Telefone</label>
+          <input
+            type="number"
+            placeholder="digite seu telefone"
+            id="telefone"
+          />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="cep">CEP</label>
+          <input type="number" placeholder="digite seu cep" id="cep" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="cidade">Cidade</label>
+          <input type="text" placeholder="digite sua cidade" id="cidade" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="uf">UF</label>
+          <input type="text" placeholder="digite sua UF" id="uf" />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">ENVIAR FORMULÁRIO</button>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
