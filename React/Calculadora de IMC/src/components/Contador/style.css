@@ -1,0 +1,57 @@
+.IMC {
+  background-color: #2f3644;
+  border-radius: 5px;
+  border: 2px solid #06eafa;
+  width: 450px;
+  max-width: 100%;
+  padding: 0 40px 30px;
+}
+
+.subtitle {
+  color: #4d70d1;
+  font-weight: bold;
+  padding: 40px;
+  text-align: center;
+}
+
+.input-form {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.input-control {
+  border: 2px solid #3e445b;
+  border-radius: 5px;
+  outline: 0;
+  display: block;
+  font-size: 14px;
+  width: 100%;
+  padding: 15px;
+}
+
+.button {
+  background-color: #5852c2;
+  border-radius: 5px;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #1dcfdb;
+  transition: 0.3s;
+}
+
+.result {
+  margin-top: 20px;
+  padding-top: 20px;
+  color: #000;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
